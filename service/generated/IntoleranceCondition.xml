@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fhir:StructureDefinition xmlns:fhir="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <fhir:id value="_420A62FD03B6418BB10D01EB"/>
+  <fhir:text>
+    <fhir:status value="generated"/>
+    <xhtml:div><xhtml:table title="need to change type to be like structure text in cda"/></xhtml:div>
+  </fhir:text>
+  <fhir:url value="http://www.fhims.org/IntoleranceCondition"/>
+  <fhir:name value="IntoleranceCondition"/>
+  <fhir:status value="draft"/>
+  <fhir:experimental value="false"/>
+  <fhir:date value="2019-08-10T13:13:37.908-04:00"/>
+  <fhir:publisher value="Office of National Coordinator"/>
+  <fhir:contact>
+    <fhir:telecom>
+      <fhir:system value="url"/>
+      <fhir:value value="URL"/>
+      <fhir:use value="work"/>
+    </fhir:telecom>
+  </fhir:contact>
+  <fhir:description value="Describes an observation of an &quot;Intolerance Condition&quot; of the Patient.  Intolerance Conditions are typically allergies, but the concept of an intolerance condition is broader than just allergies.  For example, an adverse reaction such as the patient becomes nauseous after taking a particular antibiotic is not an allergy, but may serve as a contra-indicator to the use of that antibiotic.  In general, Intolerance Conditions as caused by Food, Drugs, or some environmental factor such as mold, insect venom (i.e., bee stings), or pet dander."/>
+  <fhir:jurisdiction>
+    <fhir:coding>
+      <fhir:system value="urn:iso:std:iso:3166"/>
+      <fhir:code value="US"/>
+      <fhir:display value="United States of America"/>
+    </fhir:coding>
+  </fhir:jurisdiction>
+  <fhir:copyright value="ONC"/>
+  <fhir:fhirVersion value="4.0.0"/>
+  <fhir:mapping>
+    <fhir:identity value="fhim"/>
+    <fhir:uri value="http://onc.gov/fhim"/>
+    <fhir:name value="FHIM"/>
+  </fhir:mapping>
+  <fhir:kind value="resource"/>
+  <fhir:abstract value="false"/>
+  <fhir:type value="AllergyIntolerance"/>
+  <fhir:baseDefinition value="org.hl7.fhir.impl.UriImpl@35ef685f (id: null) (value: http://hl7.org/fhir/StructureDefinition/AllergyIntolerance)"/>
+  <fhir:derivation value="constraint"/>
+  <fhir:differential>
+    <fhir:element>
+      <fhir:path value="AllergyIntolerance"/>
+      <fhir:sliceName value="IntoleranceCondition"/>
+      <fhir:min value="0"/>
+      <fhir:max value="*"/>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.code">
+      <fhir:path value="AllergyIntolerance.code"/>
+      <fhir:sliceName value="reactant"/>
+      <fhir:min value="1"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.code"/>
+        <fhir:min value="0"/>
+        <fhir:max value="1"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="CodeableConcept"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="FHIM::Allergies::IntoleranceCondition::reactant"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.reaction">
+      <fhir:path value="AllergyIntolerance.reaction"/>
+      <fhir:max value="1"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.reaction"/>
+        <fhir:min value="0"/>
+        <fhir:max value="*"/>
+      </fhir:base>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="UNKNOWN"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.reaction.substance">
+      <fhir:path value="AllergyIntolerance.reaction.substance"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.reaction.substance"/>
+        <fhir:min value="0"/>
+        <fhir:max value="1"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="CodeableConcept"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="UNKNOWN"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.identifier">
+      <fhir:path value="AllergyIntolerance.identifier"/>
+      <fhir:sliceName value="id"/>
+      <fhir:min value="1"/>
+      <fhir:max value="1"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.identifier"/>
+        <fhir:min value="0"/>
+        <fhir:max value="*"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="Identifier"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="FHIM::Common::ClinicalInformation::id"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.criticality">
+      <fhir:path value="AllergyIntolerance.criticality"/>
+      <fhir:sliceName value="criticality"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.criticality"/>
+        <fhir:min value="0"/>
+        <fhir:max value="1"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="code"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="FHIM::Allergies::IntoleranceCondition::criticality"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.clinicalStatus">
+      <fhir:path value="AllergyIntolerance.clinicalStatus"/>
+      <fhir:sliceName value="recordStatus"/>
+      <fhir:min value="1"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.clinicalStatus"/>
+        <fhir:min value="0"/>
+        <fhir:max value="1"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="CodeableConcept"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="FHIM::Common::ClinicalInformation::recordStatus"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.reaction">
+      <fhir:path value="AllergyIntolerance.reaction"/>
+      <fhir:max value="1"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.reaction"/>
+        <fhir:min value="0"/>
+        <fhir:max value="*"/>
+      </fhir:base>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="UNKNOWN"/>
+      </fhir:mapping>
+    </fhir:element>
+    <fhir:element id="AllergyIntolerance.reaction.manifestation">
+      <fhir:path value="AllergyIntolerance.reaction.manifestation"/>
+      <fhir:base>
+        <fhir:path value="AllergyIntolerance.reaction.manifestation"/>
+        <fhir:min value="1"/>
+        <fhir:max value="*"/>
+      </fhir:base>
+      <fhir:type>
+        <fhir:code value="CodeableConcept"/>
+      </fhir:type>
+      <fhir:mustSupport value="true"/>
+      <fhir:mapping>
+        <fhir:identity value="fhim"/>
+        <fhir:map value="UNKNOWN"/>
+      </fhir:mapping>
+    </fhir:element>
+  </fhir:differential>
+</fhir:StructureDefinition>

@@ -1,0 +1,3 @@
+AdvanceDirectiveAuthorSpecialityCode	AdvanceDirectiveAuthorSpecialityCode	LOCALAdvanceDirectiveAuthorSpecialityCode	LOCALAdvanceDirectiveAuthorSpecialityCode
+SEERCODE1	SEERCODE1	LOCALCODE1	LOCALCODE1
+SEERCODE2	SEERCODE1	LOCALCODE2	LOCALCODE2

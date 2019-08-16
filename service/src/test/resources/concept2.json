@@ -1,0 +1,22 @@
+{
+  "resourceType": "ConceptMap",
+  "sourceUri": "VAVistA",
+  "targetUri": "http://hl7.org/fhir/ValueSet/v3-ReligiousAffiliation",
+  "group": [
+    {
+      "source": "2.16.840.1.113883.6.233",
+      "target": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+      "element": [
+        {
+          "code": "ADVENTIST",
+          "target": [
+            {
+              "code": "1001",
+              "equivalence": "equal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "sourceUri" : "aaa",
+  "targetUri" : "bbbb",
+  "id" : "14a61135-1110-458e-a231-976c01577844",
+  "url" : "VAVistA",
+  "resourceType" : "ConceptMap",
+  "group" : [ {
+    "source" : "2.16.840.1.113883.6.233",
+    "target" : "http://hl7.org/fhir/v3/ReligiousAffiliation",
+    "element" : [ {
+      "code" : "ADVENTIST",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1001"
+      } ]
+    }, {
+      "code" : "SEVENTH DAY ADVENTIST",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1001"
+      } ]
+    }, {
+      "code" : "AFRICAN RELIGIONS",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1002"
+      } ]
+    }, {
+      "code" : "AFRO-CARIBBEAN RELIGIONS",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1003"
+      } ]
+    }, {
+      "code" : "AGNOSTICISM",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1004"
+      } ]
+    }, {
+      "code" : "AGNOSTIC",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1004"
+      } ]
+    }, {
+      "code" : "ANGLICAN",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1005"
+      } ]
+    }, {
+      "code" : "ANIMISM",
+      "target" : [ {
+        "equivalence" : "equal",
+        "code" : "1006"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,949 @@
+{
+  "resourceType": "ConceptMap",
+  "sourceUri": "VAVistA",
+  "targetUri": "http://hl7.org/fhir/ValueSet/v3-ReligiousAffiliation",
+  "group": [
+    {
+      "source": "2.16.840.1.113883.6.233",
+      "target": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+      "element": [
+        {
+          "code": "ADVENTIST",
+          "target": [
+            {
+              "code": "1001",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SEVENTH DAY ADVENTIST",
+          "target": [
+            {
+              "code": "1001",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "AFRICAN RELIGIONS",
+          "target": [
+            {
+              "code": "1002",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "AFRO-CARIBBEAN RELIGIONS",
+          "target": [
+            {
+              "code": "1003",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "AGNOSTICISM",
+          "target": [
+            {
+              "code": "1004",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "AGNOSTIC",
+          "target": [
+            {
+              "code": "1004",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ANGLICAN",
+          "target": [
+            {
+              "code": "1005",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ANIMISM",
+          "target": [
+            {
+              "code": "1006",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ATHEISM",
+          "target": [
+            {
+              "code": "1007",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "BABI & BAHA'I FAITHS",
+          "target": [
+            {
+              "code": "1008",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "BA'HAI",
+          "target": [
+            {
+              "code": "1008",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "BAPTIST",
+          "target": [
+            {
+              "code": "1009",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "BON",
+          "target": [
+            {
+              "code": "1010",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CAO DAI",
+          "target": [
+            {
+              "code": "1011",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CELTICISM",
+          "target": [
+            {
+              "code": "1012",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHRISTIAN (NON-SPECIFIC)",
+          "target": [
+            {
+              "code": "1013",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHRISTIAN",
+          "target": [
+            {
+              "code": "1013",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CONFUCIANISM",
+          "target": [
+            {
+              "code": "1014",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CYBERCULTURE RELIGIONS",
+          "target": [
+            {
+              "code": "1015",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "DIVINATION",
+          "target": [
+            {
+              "code": "1016",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "FOURTH WAY",
+          "target": [
+            {
+              "code": "1017",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "FREE DAISM",
+          "target": [
+            {
+              "code": "1018",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "GNOSIS",
+          "target": [
+            {
+              "code": "1019",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "HINDUISM",
+          "target": [
+            {
+              "code": "1020",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "HINDU",
+          "target": [
+            {
+              "code": "1020",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "HUMANISM",
+          "target": [
+            {
+              "code": "1021",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "INDEPENDENT",
+          "target": [
+            {
+              "code": "1022",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ISLAM",
+          "target": [
+            {
+              "code": "1023",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "MUSLIM",
+          "target": [
+            {
+              "code": "1023",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "AL-ISLAM",
+          "target": [
+            {
+              "code": "1023",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "JAINISM",
+          "target": [
+            {
+              "code": "1024",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "JEHOVAH'S WITNESSES",
+          "target": [
+            {
+              "code": "1025",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "JEHOVAH'S WITNESS",
+          "target": [
+            {
+              "code": "1025",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "JUDAISM",
+          "target": [
+            {
+              "code": "1026",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "JEWISH",
+          "target": [
+            {
+              "code": "1026",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "LATTER DAY SAINTS",
+          "target": [
+            {
+              "code": "1027",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "LATTER-DAY SAINTS",
+          "target": [
+            {
+              "code": "1027",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "LUTHERAN",
+          "target": [
+            {
+              "code": "1028",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "MAHAYANA",
+          "target": [
+            {
+              "code": "1029",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "MEDITATION",
+          "target": [
+            {
+              "code": "1030",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "MESSIANIC JUDAISM",
+          "target": [
+            {
+              "code": "1031",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "MITRAISM",
+          "target": [
+            {
+              "code": "1032",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "NEW AGE",
+          "target": [
+            {
+              "code": "1033",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "NON-ROMAN CATHOLIC",
+          "target": [
+            {
+              "code": "1034",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CATHOLIC",
+          "target": [
+            {
+              "code": "1034",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ZCATHOLIC",
+          "target": [
+            {
+              "code": "1034",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "OCCULT",
+          "target": [
+            {
+              "code": "1035",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ORTHODOX",
+          "target": [
+            {
+              "code": "1036",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PAGANISM",
+          "target": [
+            {
+              "code": "1037",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PENTECOSTAL",
+          "target": [
+            {
+              "code": "1038",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PENTACOSTAL",
+          "target": [
+            {
+              "code": "1038",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "APOSTOLIC",
+          "target": [
+            {
+              "code": "1038",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PROCESS, THE",
+          "target": [
+            {
+              "code": "1039",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "REFORMED/PRESBYTERIAN",
+          "target": [
+            {
+              "code": "1040",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ROMAN CATHOLIC CHURCH",
+          "target": [
+            {
+              "code": "1041",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ROMAN CATHOLIC",
+          "target": [
+            {
+              "code": "1041",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SATANISM",
+          "target": [
+            {
+              "code": "1042",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SCIENTOLOGY",
+          "target": [
+            {
+              "code": "1043",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SHAMANISM",
+          "target": [
+            {
+              "code": "1044",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SHIITE (ISLAM)",
+          "target": [
+            {
+              "code": "1045",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SHINTO",
+          "target": [
+            {
+              "code": "1046",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SIKISM",
+          "target": [
+            {
+              "code": "1047",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SIKHISM",
+          "target": [
+            {
+              "code": "1047",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SPIRITUALISM",
+          "target": [
+            {
+              "code": "1048",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SUNNI (ISLAM)",
+          "target": [
+            {
+              "code": "1049",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "TAOISM",
+          "target": [
+            {
+              "code": "1050",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "THERAVADA",
+          "target": [
+            {
+              "code": "1051",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNITARIAN-UNIVERSALISM",
+          "target": [
+            {
+              "code": "1052",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNIVERSAL LIFE CHURCH",
+          "target": [
+            {
+              "code": "1053",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "VAJRAYANA (TIBETAN)",
+          "target": [
+            {
+              "code": "1054",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "VEDA",
+          "target": [
+            {
+              "code": "1055",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "VOODOO",
+          "target": [
+            {
+              "code": "1056",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "WICCA",
+          "target": [
+            {
+              "code": "1057",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "YAOHUSHUA",
+          "target": [
+            {
+              "code": "1058",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ZEN BUDDHISM",
+          "target": [
+            {
+              "code": "1059",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ZOROASTRIANISM",
+          "target": [
+            {
+              "code": "1060",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ASSEMBLY OF GOD",
+          "target": [
+            {
+              "code": "1061",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "ASSEMBLIES OF GOD",
+          "target": [
+            {
+              "code": "1061",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "BRETHREN",
+          "target": [
+            {
+              "code": "1062",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHRISTIAN SCIENTIST",
+          "target": [
+            {
+              "code": "1063",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHRISTIAN SCIENCE",
+          "target": [
+            {
+              "code": "1063",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHURCH OF CHRIST",
+          "target": [
+            {
+              "code": "1064",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CHURCH OF GOD",
+          "target": [
+            {
+              "code": "1065",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "CONGREGATIONAL",
+          "target": [
+            {
+              "code": "1066",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "DISCIPLES OF CHRIST",
+          "target": [
+            {
+              "code": "1067",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "EASTERN ORTHODOX",
+          "target": [
+            {
+              "code": "1068",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "EPISCOPALIAN",
+          "target": [
+            {
+              "code": "1069",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "EPISCOPAL",
+          "target": [
+            {
+              "code": "1069",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "EVANGELICAL COVENANT",
+          "target": [
+            {
+              "code": "1070",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "EVANGELICAN CONVENT",
+          "target": [
+            {
+              "code": "1070",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "FRIENDS",
+          "target": [
+            {
+              "code": "1071",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "FULL GOSPEL",
+          "target": [
+            {
+              "code": "1072",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "METHODIST",
+          "target": [
+            {
+              "code": "1073",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "NATIVE AMERICAN",
+          "target": [
+            {
+              "code": "1074",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "NAZARENE",
+          "target": [
+            {
+              "code": "1075",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PRESBYTERIAN",
+          "target": [
+            {
+              "code": "1076",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PROTESTANT",
+          "target": [
+            {
+              "code": "1077",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PROTESTANT, OTHER",
+          "target": [
+            {
+              "code": "1077",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "PROTESTANT, NO DENOMINATION",
+          "target": [
+            {
+              "code": "1078",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "REFORMED",
+          "target": [
+            {
+              "code": "1079",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "SALVATION ARMY",
+          "target": [
+            {
+              "code": "1080",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNITARIAN",
+          "target": [
+            {
+              "code": "1081",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNITARIAN; UNIVERSALIST",
+          "target": [
+            {
+              "code": "1081",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNITED CHURCH OF CHRIST",
+          "target": [
+            {
+              "code": "1082",
+              "equivalence": "equal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
