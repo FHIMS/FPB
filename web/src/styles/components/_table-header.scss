@@ -1,0 +1,18 @@
+.table-header {
+  background: $off-white;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+  font-weight: bold;
+}
+
+.table-header__actions {
+  margin-top: $s-size;
+}
+
+.table-header__title {
+  font-weight: 150;
+  margin: 0;
+  span {
+    font-weight: 350;
+  }
+}

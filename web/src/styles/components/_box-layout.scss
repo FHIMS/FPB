@@ -1,0 +1,22 @@
+.box-layout {
+  align-items: center;
+  background: url('/images/bg11.jpg');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: fade-out(white, .15);
+  border-radius: 3px;
+  padding: $s-size $s-size;
+  text-align: center;
+  width: 25rem;
+}
+
+.box-layout__title {
+  margin: 0 0 $s-size 0;
+  line-height: 1;
+}

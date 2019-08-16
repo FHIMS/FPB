@@ -1,0 +1,2 @@
+yarn add @progress/kendo-react-intl @progress/kendo-react-dateinputs @progress/kendo-react-animation @progress/kendo-data-query @progress/kendo-react-popup @progress/kendo-react-inputs @progress/kendo-react-buttons @progress/kendo-react-dropdowns @progress/kendo-react-pdf @progress/kendo-react-excel-export @progress/kendo-drawing @progress/kendo-react-dialogs @progress/kendo-react-layout
+@progress/kendo-theme-default @progress/kendo-theme-bootstrap @progress/kendo-theme-material

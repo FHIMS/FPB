@@ -1,0 +1,198 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "2436",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2019-07-06T21:21:00.501-04:00",
+      "profile": [
+        "http://fhims.org/fhim/StructureDefinition/class"
+      ]
+    },
+    "url": "http://fhims.org/fhim/class/StructureDefinition/ImmunizationReport",
+    "name": "ImmunizationReport",
+    "status": "active",
+    "kind": "logical",
+    "abstract": false,
+    "type": "http://fhims.org/fhim/class",
+    "baseDefinition": "http://fhims.org/fhim/class",
+    "_baseDefinition": {
+      "fhir_comments": [
+        " Base structure "
+      ]
+    },
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "ImmunizationReport",
+          "path": "ImmunizationReport",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "Class"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.time",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "supported"
+            }
+          ],
+          "path": "ImmunizationReport.time",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "time"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.count",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "supported"
+            }
+          ],
+          "path": "ImmunizationReport.count",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "integer"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.status",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "supported"
+            }
+          ],
+          "path": "ImmunizationReport.status",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "code"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.vaccineCode",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "not supported"
+            }
+          ],
+          "path": "ImmunizationReport.vaccineCode",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "CD"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.occurrences",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "mandatory"
+            }
+          ],
+          "path": "ImmunizationReport.occurrences",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "time"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.organization",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "supported"
+            }
+          ],
+          "path": "ImmunizationReport.organization",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "Organizatoin"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.author",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "supported"
+            }
+          ],
+          "path": "ImmunizationReport.author",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "Participant"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.patient",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "not supported"
+            }
+          ],
+          "path": "ImmunizationReport.patient",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "Patient"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.encounter",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "not supported"
+            }
+          ],
+          "path": "ImmunizationReport.encounter",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "Encounter"
+            }
+          ]
+        },
+        {
+          "id": "ImmunizationReport.statusReason",
+          "extension": [
+            {
+              "url": "http://fhims.org/fhim/usage",
+              "valueString": "not supported"
+            }
+          ],
+          "path": "ImmunizationReport.statusReason",
+          "definition": "definition",
+          "type": [
+            {
+              "code": "ST"
+            }
+          ]
+        }
+      ]
+    }
+  }
