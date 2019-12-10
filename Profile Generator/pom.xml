@@ -109,21 +109,21 @@
 </dependency>
 
 <dependency>
-    <groupId>org.eclipse.uml2.uml_5.3.0.v201706051616</groupId>
-    <artifactId>org.eclipse.uml2.uml_5.3.0.v201706051616</artifactId>
+    <groupId>org.eclipse.uml2.uml_5.3.0.v20170605</groupId>
+    <artifactId>org.eclipse.uml2.uml_5.3.0.v20170605</artifactId>
     <version>5.3.0.v20170605-1616</version>
 </dependency>
 
 <dependency>
     <groupId>org.eclipse.uml2.uml.resources_5.3.0.v20170605</groupId>
     <artifactId>org.eclipse.uml2.uml.resources_5.3.0.v20170605</artifactId>
-    <version>5.3.0.v20170605</version>
+    <version>5.3.0.v20170605-1616</version>
 </dependency>
 
 <dependency>
     <groupId>org.eclipse.uml2.uml.profile.standard_1.0.100.v20170605</groupId>
     <artifactId>org.eclipse.uml2.uml.profile.standard_1.0.100.v20170605</artifactId>
-    <version>1.0.100.v20170605</version>
+    <version>1.0.100.v20170605-1616</version>
 </dependency>
 
 <dependency>
